@@ -1,5 +1,5 @@
 # reading data from csv, specify interested columns using the last " [,c(column var)] "
-countries_data <- read.csv("C:/Users/rodri/OneDrive/Área de Trabalho/UMD/INST314/hw3/GGI2013.csv")
+countries_data <- read.csv("GGI2013.csv")
 names(countries_data)
 # full data being related 
 countries_data_selected <- countries_data[ , c('X2013', 'X2012', 'X2011', 'X2010', 'X2009', 'X2008', 'X2007', 'X2006')]
